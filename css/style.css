@@ -15,6 +15,12 @@
   margin-top: 20px;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 span.price{
   text-decoration: line-through;
   margin-left: 10px;  
